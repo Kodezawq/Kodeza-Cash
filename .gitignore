@@ -10,3 +10,4 @@ AuthKey_*.p8
 vendor/bundle/
 fastlane/report.xml
 fastlane/test_output
+config.env
