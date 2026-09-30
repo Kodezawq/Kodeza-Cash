@@ -1,0 +1,6 @@
+framework module Pods_Loan_Zen {
+  umbrella header "Pods-Loan_Zen-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18007AE3C6C336B91A9F12CE /* Pods_Loan_Zen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01DB6792D80B24DB20D16EC /* Pods_Loan_Zen.framework */; };
+		FD121B52306CA51E00DC3523 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD121B51306CA51E00DC3523 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD121B54306CA52900DC3523 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD121B53306CA52900DC3523 /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD121B56306CA53900DC3523 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD121B55306CA53900DC3523 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD121B58306CA54300DC3523 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD121B57306CA54300DC3523 /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FD121B5A306CA55400DC3523 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD121B59306CA55400DC3523 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B395A4196B5C6352209F43 /* Pods-Loan_Zen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loan_Zen.debug.xcconfig"; path = "Target Support Files/Pods-Loan_Zen/Pods-Loan_Zen.debug.xcconfig"; sourceTree = "<group>"; };
+		AD5628DC1CD9924BD867D88E /* Pods-Loan_Zen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loan_Zen.release.xcconfig"; path = "Target Support Files/Pods-Loan_Zen/Pods-Loan_Zen.release.xcconfig"; sourceTree = "<group>"; };
+		D01DB6792D80B24DB20D16EC /* Pods_Loan_Zen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loan_Zen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD121B51306CA51E00DC3523 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FD121B53306CA52900DC3523 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		FD121B55306CA53900DC3523 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FD121B57306CA54300DC3523 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		FD121B59306CA55400DC3523 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FD99FA1B2FD26DB3007A2371 /* Loan_Zen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loan_Zen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FD99FA322FD26DB4007A2371 /* Exceptions for "Loan_Zen" folder in "Loan_Zen" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FD99FA1A2FD26DB3007A2371 /* Loan_Zen */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FD99FA1D2FD26DB3007A2371 /* Loan_Zen */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FD99FA322FD26DB4007A2371 /* Exceptions for "Loan_Zen" folder in "Loan_Zen" target */,
+			);
+			path = Loan_Zen;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD99FA182FD26DB3007A2371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD121B5A306CA55400DC3523 /* StoreKit.framework in Frameworks */,
+				FD121B58306CA54300DC3523 /* AppTrackingTransparency.framework in Frameworks */,
+				FD121B56306CA53900DC3523 /* AdSupport.framework in Frameworks */,
+				FD121B54306CA52900DC3523 /* AdServices.framework in Frameworks */,
+				FD121B52306CA51E00DC3523 /* WebKit.framework in Frameworks */,
+				18007AE3C6C336B91A9F12CE /* Pods_Loan_Zen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13438469529298993CFF7E3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD121B59306CA55400DC3523 /* StoreKit.framework */,
+				FD121B57306CA54300DC3523 /* AppTrackingTransparency.framework */,
+				FD121B55306CA53900DC3523 /* AdSupport.framework */,
+				FD121B53306CA52900DC3523 /* AdServices.framework */,
+				FD121B51306CA51E00DC3523 /* WebKit.framework */,
+				D01DB6792D80B24DB20D16EC /* Pods_Loan_Zen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17F7860F9803C0E7A81D8A6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13B395A4196B5C6352209F43 /* Pods-Loan_Zen.debug.xcconfig */,
+				AD5628DC1CD9924BD867D88E /* Pods-Loan_Zen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD99FA122FD26DB3007A2371 = {
+			isa = PBXGroup;
+			children = (
+				FD99FA1D2FD26DB3007A2371 /* Loan_Zen */,
+				FD99FA1C2FD26DB3007A2371 /* Products */,
+				17F7860F9803C0E7A81D8A6B /* Pods */,
+				13438469529298993CFF7E3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD99FA1C2FD26DB3007A2371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD99FA1B2FD26DB3007A2371 /* Loan_Zen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD99FA1A2FD26DB3007A2371 /* Loan_Zen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD99FA332FD26DB4007A2371 /* Build configuration list for PBXNativeTarget "Loan_Zen" */;
+			buildPhases = (
+				86DB9B14BDA9B7664C59D081 /* [CP] Check Pods Manifest.lock */,
+				FD99FA172FD26DB3007A2371 /* Sources */,
+				FD99FA182FD26DB3007A2371 /* Frameworks */,
+				FD99FA192FD26DB3007A2371 /* Resources */,
+				D6B154DC368729BFB615184D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FD99FA1D2FD26DB3007A2371 /* Loan_Zen */,
+			);
+			name = Loan_Zen;
+			productName = Loan_Zen;
+			productReference = FD99FA1B2FD26DB3007A2371 /* Loan_Zen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD99FA132FD26DB3007A2371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					FD99FA1A2FD26DB3007A2371 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = FD99FA162FD26DB3007A2371 /* Build configuration list for PBXProject "Loan_Zen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD99FA122FD26DB3007A2371;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FD99FA1C2FD26DB3007A2371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD99FA1A2FD26DB3007A2371 /* Loan_Zen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD99FA192FD26DB3007A2371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86DB9B14BDA9B7664C59D081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Loan_Zen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B154DC368729BFB615184D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Loan_Zen/Pods-Loan_Zen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Loan_Zen/Pods-Loan_Zen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Loan_Zen/Pods-Loan_Zen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD99FA172FD26DB3007A2371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD99FA342FD26DB4007A2371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B395A4196B5C6352209F43 /* Pods-Loan_Zen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D5DDQ4ZB5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Loan_Zen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kodeza Cash";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To provide secure loan services, Kodeza Cash hopes to obtain camera permission. We promise to use data transparently and compliantly. Photos are used only for identity verification.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "To improve platform security management capabilities, Kodeza Cash would like access to your contacts. This permission helps optimize security models and strengthen account protection. We do not use information beyond the scope described in our Privacy Policy. You may choose whether to grant access.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Kodeza Cash will use location information to help you obtain locally applicable loan amounts. This helps improve the accuracy and practicality of our services. Location data is used only for this service matching and will not be saved after completion.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Kodeza Cash uses IDFA to analyze service effectiveness and optimize loan matching efficiency. Your permission helps us provide more accurate financial support.\nKodeza Cash uses IDFA to analyze service effectiveness and optimize loan matching efficiency. Your permission helps us provide more accurate financial support.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Network,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodezaph.extension.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = kodezaNew;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FD99FA352FD26DB4007A2371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5628DC1CD9924BD867D88E /* Pods-Loan_Zen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Loan_Zen/Loan_ZenRelease.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D5DDQ4ZB5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Loan_Zen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kodeza Cash";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To provide secure loan services, Kodeza Cash hopes to obtain camera permission. We promise to use data transparently and compliantly. Photos are used only for identity verification.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "To improve platform security management capabilities, Kodeza Cash would like access to your contacts. This permission helps optimize security models and strengthen account protection. We do not use information beyond the scope described in our Privacy Policy. You may choose whether to grant access.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Kodeza Cash will use location information to help you obtain locally applicable loan amounts. This helps improve the accuracy and practicality of our services. Location data is used only for this service matching and will not be saved after completion.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Kodeza Cash uses IDFA to analyze service effectiveness and optimize loan matching efficiency. Your permission helps us provide more accurate financial support.\nKodeza Cash uses IDFA to analyze service effectiveness and optimize loan matching efficiency. Your permission helps us provide more accurate financial support.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Network,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodezaph.extension.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = kodezaNew;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FD99FA362FD26DB4007A2371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9XH6BL4847;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD99FA372FD26DB4007A2371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9XH6BL4847;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD99FA162FD26DB3007A2371 /* Build configuration list for PBXProject "Loan_Zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD99FA362FD26DB4007A2371 /* Debug */,
+				FD99FA372FD26DB4007A2371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD99FA332FD26DB4007A2371 /* Build configuration list for PBXNativeTarget "Loan_Zen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD99FA342FD26DB4007A2371 /* Debug */,
+				FD99FA352FD26DB4007A2371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD99FA132FD26DB3007A2371 /* Project object */;
+}

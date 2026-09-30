@@ -1,0 +1,8 @@
+{
+  "images" : [
+    { "idiom" : "universal", "scale" : "1x" },
+    { "filename" : "lz_face_ckx@2x.png", "idiom" : "universal", "scale" : "2x" },
+    { "filename" : "lz_face_ckx@3x.png", "idiom" : "universal", "scale" : "3x" }
+  ],
+  "info" : { "author" : "xcode", "version" : 1 }
+}
