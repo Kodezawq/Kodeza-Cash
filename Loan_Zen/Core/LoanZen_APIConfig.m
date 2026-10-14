@@ -1,7 +1,7 @@
 #import "LoanZen_APIConfig.h"
 
 static NSString * const kLZAPIAppId = @"kodezacash";
-static NSString * const kLZAPIBaseURL = @"https://api.kodezacash.com";
+static NSString * const kLZAPIBaseURL = @"https://api.kodezainccash.com";
 static NSString * const kLZAPIChannel = @"app_store";
 static NSString * const kLZAPIProtocolVersion = @"2.0";
 static NSString * const kLZAPISignSalt = @"hZucetjrXOoLd2ZA";
